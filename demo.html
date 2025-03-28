@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg" type="image/jpeg">
+    <title>Synced Notes - Secure & Accessible</title>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #121212, #1E1E1E);
+            color: #E5C100;
+            line-height: 1.7;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgba(30, 30, 30, 0.9);
+            color: #E5C100;
+            text-align: center;
+            padding: 80px 20px;
+            box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+            position: relative;
+            border-bottom: 3px solid #FFD700;
+        }
+
+        .logo {
+            width: 120px; /*Adjusted size for better visibility*/ 
+            position: absolute;
+            top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(255, 215, 0, 0.3);
+            left: 20px; /* Adjusted position*/ 
+            /* transition: transform 0.3s; */
+        }
+
+        /* .logo:hover {
+            transform: scale(1.1); /* Slightly enlarge on hover 
+        } */
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            letter-spacing: 1.5px;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.5em;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        main {
+            flex: 1;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .feature-section {
+            background-color: rgba(34, 34, 34, 0.9);
+            padding: 60px;
+            margin: 40px auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+            max-width: 900px;
+            color: #E5C100;
+            transition: transform 0.3s;
+        }
+
+        .feature-section:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-section h2 {
+            color: #FFD700;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #E5C100;
+            padding-bottom: 15px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .feature-list li {
+            margin-bottom: 30px;
+            position: relative;
+            padding-left: 40px;
+            font-size: 1.1em;
+        }
+
+        .feature-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #FFD700;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+
+        .app-screenshot {
+            max-width: 80%;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(255, 215, 0, 0.3);
+            margin-top: 40px;
+            transition: transform 0.3s;
+        }
+
+        .app-screenshot:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: rgba(30, 30, 30, 0.9);
+            color: #E5C100;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 50px 15px;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            main {
+                padding: 60px 15px;
+            }
+
+            .feature-section {
+                padding: 40px;
+                margin: 30px auto;
+            }
+
+            .feature-list li {
+                font-size: 1em;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo" class="logo">
+        <h1>Your Notes, Securely Synced</h1>
+        <p>Never lose your ideas again.</p>
+    </header>
+
+    <main>
+        <section class="feature-section">
+            <h2>Why Choose Synced Notes?</h2>
+            <p>Experience the peace of mind that comes with knowing your notes are always safe and accessible.</p>
+
+            <ul class="feature-list">
+                <li><strong>Unbreakable Data Persistence:</strong> Your notes are stored securely.</li>
+                <li><strong>Seamless Cross-Device Synchronization:</strong> Access from anywhere.</li>
+                <li><strong>Robust Database Redundancy:</strong> Secure internal and external backups.</li>
+                <li><strong>Intuitive and User-Friendly Interface:</strong> Effortlessly capture your thoughts.</li>
+                <li><strong>Reliable Offline Access:</strong> Edit notes without an internet connection.</li>
+            </ul>
+
+            <!-- <img src="logo.jpg" alt="Synced Notes App Screenshot" class="app-screenshot"> -->
+        </section>
+
+        <section class="feature-section">
+            <h2>Empowering Your Productivity</h2>
+            <p>Whether brainstorming, planning, or jotting reminders, Synced Notes keeps you organized.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Synced Notes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
